@@ -1,0 +1,39 @@
+.weather_day_week_card {
+  border-radius: 10px;
+  width: 190px;
+  min-height: 200px;
+  background: rgba(46, 48, 53, 1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather_day_week_card h3 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mounth_week {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400px;
+  color: rgba(147, 156, 176, 1);
+}
+
+.week_condition {
+  margin: 10px 0;
+}
+.maxtemp_week {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 22px;
+}
+.mintemp_week {
+  color: rgba(147, 156, 176, 1);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}

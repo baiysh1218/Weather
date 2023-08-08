@@ -1,0 +1,42 @@
+.daily_weather {
+  background-color: rgba(180, 180, 180, 0.25);
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 18px;
+  display: flex;
+  position: relative;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+}
+.daily_img {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.daily_f_info h2 {
+  color: #4793ff;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 117.02px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.daily_f_info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.76px;
+  color: #ffff;
+}
+
+.daily_f_info_item_p {
+  margin-top: 31px;
+}
+
+.daily_f_info_item {
+  color: #939cb0;
+  font-size: 25px;
+  line-height: 30.48px;
+  font-weight: 400;
+}

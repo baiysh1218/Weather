@@ -1,0 +1,15 @@
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.nav_item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header_nav .nav_item:first-child h1 {
+  color: #4793ff;
+  font-weight: 100px;
+}
